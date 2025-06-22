@@ -3,8 +3,10 @@ Junior Developer (Python Backend / Frontend)
 
 ### Contacts
 :telephone_receiver: +375 29 671 40 80\
-:email: tatsiana.kaval91@gmail.com, tatianakov91@gmail.com\
-:glob_with_meridians: [GitHub](https://github.com/TatsianaKaval), [LinkedIn](www.linkedin.com/in/tatsiana-kavalevich1)\
+:email: tatsiana.kaval91@gmail.com\
+  tatianakov91@gmail.com\
+:glob_with_meridians: [GitHub](https://github.com/TatsianaKaval)  
+  [LinkedIn](www.linkedin.com/in/tatsiana-kavalevich1)\
 :computer: [Telegram](https://t.me.TatsianaKaval)
 
 ### About me
@@ -17,16 +19,16 @@ I am open to new knowledge and always ready to improve myself.
 I am looking for my first internship or a Junior position to apply my knowledge to real-world tasks.
 
 ### Skills
-* Languages: Python (basic), HTML/CSS (basic), JavaScript (currently learning)
-* Frameworks: Django (fundamentals), React (planned)
-* Tools: Git, GitHub, VS Code
-* Databases: SQLite (basic)
+* **Languages:** Python (basic), HTML/CSS (basic), JavaScript (currently learning)
+* **Frameworks:** Django (fundamentals), React (planned)
+* **Tools:** Git, GitHub, VS Code
+* **Databases:** SQLite (basic)
 
 
 ### Education
 **Courses:**
-- JS / Front-end Pre-school RU, RS school (June 2025 - Present)  
-- Python web development (Django), IT Academy, march - may 2024
+- _JS / Front-end Pre-school RU_, RS school (June 2025 - Present)  
+- _Python web development (Django)_, IT Academy, march - may 2024
 
 **High school diploma (Graduated in 2009)**
 
