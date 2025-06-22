@@ -13,7 +13,8 @@ Django and SQLite during my training courses. Currently, I am learning frontend
 development.  
 I enjoy acquiring new knowledge. I am a responsible and reliable person, striving for  
 high-quality results. I work well in a team and am eager to develop new skills.  
-I am open to new knowledge and always ready to improve myself.
+I am open to new knowledge and always ready to improve myself.  
+I am looking for my first internship or a Junior position to apply my knowledge to real-world tasks.
 
 ### Skills
 * Languages: Python (basic), HTML/CSS (basic), JavaScript (currently learning)
