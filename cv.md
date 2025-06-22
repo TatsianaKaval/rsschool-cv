@@ -30,6 +30,24 @@ I am looking for my first internship or a Junior position to apply my knowledge 
 
 **High school diploma (Graduated in 2009)**
 
+### Code Example
+```
+function squareSum(numbers) {
+  let out = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    let square = numbers[i] ** 2;
+    out += square;
+  }
+  return out;
+}
+
+squareSum([1, 2, 2])
+```
+
+### Experience
+<!-- Add link to git project -->
+
+
 ### Languages
 - Russian (native)
 - English (A2)
