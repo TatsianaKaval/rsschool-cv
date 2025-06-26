@@ -45,7 +45,20 @@ squareSum([1, 2, 2])
 ```
 
 ### Experience
-<!-- Add link to git project -->
+**Project: Online Flower Shop Website**
+
+**Technologies:** Python, Django, HTML, CSS, SQLite, Git, GitHub
+**Source code:** [Flower shop](https://github.com/TatsianaKaval/django-flower-shop)
+
+**Description:**  
+Developed a web-based flower shop as part of a learning project using Django. The website includes: a product catalog, company information pages, and contacts. Implemented Django templates, views, models, admin panel. The project is structured according to best practices, with sensitive data securely managed via a .env file.
+
+**Skills demonstrated:**
+- Django framework: views, templates, routing, admin customization
+- Database integration with SQLite
+- Static and media file management
+- Secret management using .env and .gitignore
+- Clean and modular project architecture following Django conventions
 
 
 ### Languages
