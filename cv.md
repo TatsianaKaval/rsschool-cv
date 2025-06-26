@@ -5,7 +5,7 @@ Junior Developer (Python Backend / Frontend)
 :telephone_receiver: +375 29 671 40 80\
 :email: tatsiana.kaval91@gmail.com\
   tatianakov91@gmail.com\
-:glob_with_meridians: [GitHub](https://github.com/TatsianaKaval)  
+:globe_with_meridians: [GitHub](https://github.com/TatsianaKaval)  
   [LinkedIn](www.linkedin.com/in/tatsiana-kavalevich1)\
 :computer: [Telegram](https://t.me.TatsianaKaval)
 
