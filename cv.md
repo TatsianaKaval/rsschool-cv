@@ -26,11 +26,9 @@ I am looking for my first internship or a Junior position to apply my knowledge 
 
 
 ### Education
-**Courses:**
 - _JS / Front-end Pre-school RU_, RS school (June 2025 - Present)  
-- _Python web development (Django)_, IT Academy, march - may 2024
-
-**High school diploma (Graduated in 2009)**
+- _Python web development (Django)_, IT Academy, (March - May 2024)
+- _High school diploma_, (Graduated in 2009)
 
 ### Code Example
 ```
