@@ -45,7 +45,7 @@ squareSum([1, 2, 2])
 ```
 
 ### Experience
-**Project: Online Flower Shop Website**  
+*** Project: Online Flower Shop Website ***  
 **Source code:** [Flower shop](https://github.com/TatsianaKaval/django-flower-shop)
 
 **Technologies:** Python, Django, HTML, CSS, SQLite, Git, GitHub
