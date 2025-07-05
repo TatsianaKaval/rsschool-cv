@@ -10,43 +10,44 @@
 <body>
   <header class="header">
     <div class="container">
-      
+      <nav class="nav">
+        <ul class="nav-list">
+          <!-- !Change link style -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Languages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code-example">Code example</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <nav class="nav">
-      <ul class="nav-list">
-        <!-- !Change link style -->
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacts">Contacts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#languages">Languages</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#code-example">Code example</a>
-        </li>
-      </ul>
-    </nav>
   </header>
 
   <main class="main">
-    <div class="container">
+    <div class="container main-container">
       <section class="section">
-        <img src="assets/img/photo.jpg" alt="my photo" width="400" height="300">
-        <h1 class="section-title">I'm Tatsiana Kavalevich</h1>
-        <hr>
-        <p>Frontend Developer</p>
+        <div class="main-section">
+          <img class="my-photo" src="assets/img/photo.jpg" alt="my photo" width="300" height="225">
+          <h1 class="main-section-title">I'm Tatsiana Kavalevich</h1>
+          <!-- <hr> -->
+          <p>Frontend Developer</p>
+        </div>
       </section>
 
       <section class="section" id="about">
@@ -70,7 +71,7 @@
         <ul class="contacts-list">
           <li class="contacts-item">
             <img src="assets/icons/phone_icon32.png" alt="phone icon" width="30" height="30">
-            <a href="tel:+375296714080">+375 29 671 40 80</a>
+            <a class="contact-link" href="tel:+375296714080">+375 29 671 40 80</a>
           </li>
           <li class="contacts-item">
             <img src="assets/icons/email_icon32.png" alt="email icon" width="30" height="30">
@@ -80,15 +81,15 @@
           </li>
           <li class="contacts-item">
             <img src="assets/icons/github_icon32.png" alt="github icon" width="30" height="30">
-            <a class="contact-link" href="https://github.com/TatsianaKaval">Github</a>
+            <a class="contact-link" href="https://github.com/TatsianaKaval" target="_blank">Github</a>
           </li>
           <li class="contacts-item">
             <img src="assets/icons/linkedin_icon32.png" alt="linkedin icon" width="30" height="30">
-            <a class="contact-link" href="https://www.linkedin.com/in/tatsiana-kavalevich1/">Linkedin</a>
+            <a class="contact-link" href="https://www.linkedin.com/in/tatsiana-kavalevich1/" target="_blank">Linkedin</a>
           </li>
           <li class="contacts-item">
             <img src="assets/icons/telegram_icon32.c.png" alt="telegram icon" width="30" height="30">
-            <a class="contact-link" href="https://t.me/TatsianaKaval">Telegram</a>
+            <a class="contact-link" href="https://t.me/TatsianaKaval" target="_blank">Telegram</a>
           </li>
         </ul>
       </section>
@@ -104,7 +105,7 @@
             <span class="education-span">Python web development (Django)</span>
             <br>IT Academy, (March - May 2024)
             <br>
-            <a href="https://drive.google.com/file/d/1rmJWbuzxOfHqykjxHI0UQEVis-yS_53v/view?usp=sharing" class="certificate-link">
+            <a class="certificate-link" href="https://drive.google.com/file/d/1rmJWbuzxOfHqykjxHI0UQEVis-yS_53v/view?usp=sharing" target="_blank">
               <img src="assets/img/Certificate_IT_Academy.png" alt="Certificate IT-Academy" width="150" height="100">
             </a>
           </li>
@@ -153,7 +154,7 @@
           <span class="project-description-span">Online Flower Shop Website</span>
           <br>
           <span class="project-subtitle-span">Source code:</span>
-          <a class="project-link" href="https://github.com/TatsianaKaval/django-flower-shop">Flower shop</a>
+          <a class="project-link" href="https://github.com/TatsianaKaval/django-flower-shop" target="_blank">Flower shop</a>
           <br>
           <span class="project-subtitle-span">Technologies:</span>
           <span class="project-description-span">Python, Django, HTML, CSS, SQLite, Git, GitHub</span>
@@ -213,12 +214,12 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-       <a class="footer-link" href="https://github.com/TatsianaKaval">
+    <div class="container footer-container">
+       <a class="footer-link" href="https://github.com/TatsianaKaval" target="_blank">
         <img src="assets/icons/github_logo_icon.svg" alt="logo Github" width="64" height="64">Visit my Github
       </a>
        &copy;2025
-       <a class="footer-link" href="https://rs.school/courses/javascript-ru">
+       <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank">
         <img class="footer-img" src="assets/icons/rs-school-logo.svg" alt="logo-rs-school" width="110" height="64">
       </a>
     </div>
