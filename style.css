@@ -75,12 +75,21 @@ body {
 .contact-link,
 .project-link,
 .footer-link {
-  padding: 0 20px;
+  /* padding: 0 20px; */
   line-height: 30px;
 
   color: #829985;
   text-decoration: none;
   transition: 0.7s;
+}
+
+.contact-link,
+.footer-link {
+  padding: 0 20px; 
+}
+
+.project-link {
+  padding-right: 40px;
 }
 
 .contact-link:visited,
@@ -154,6 +163,32 @@ body {
 .skills-list {
   padding-top: 3px;
   font-style: italic;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.experience-subtitle,
+.experience-description {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.experience-description {
+  padding-top: 3px;
+}
+
+.description-experience-list {
+  padding-inline-start: 16px;
+}
+
+.demonstrated-skills-item {
+  line-height: 1.3;
+  margin-bottom: 10px;
+
+  list-style: square;
 }
 
 .pre {
