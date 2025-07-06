@@ -8,18 +8,19 @@
 }
 
 html {
-  scroll-behavior: smooth; /* плавная прокрутка*/
+  scroll-behavior: smooth; /* smooth scrolling*/
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh; /* 4 строки для прижатия футера*/
+  min-height: 100vh; /* 4 lines for press down the footer*/
   margin: 0;
   padding: 0;
 
   font-family: 'Roboto';
+  font-size: 18px;
 }
 
 .header,
@@ -40,7 +41,7 @@ body {
 }
 
 .header {
-  position: sticky; /*Pin menu*/
+  position: sticky; /*Pin menu (2 lines)*/
   top: 0;
 }
 
@@ -56,7 +57,7 @@ body {
   padding: 0 20px;
   line-height: 50px;
 
-  font-size: 18px;
+  font-size: 20px;
 
   color: #ffffff;
   text-decoration: none;
@@ -73,6 +74,9 @@ body {
 .contact-link,
 .project-link,
 .footer-link {
+  padding: 0 20px;
+  line-height: 30px;
+
   color: #829985;
   text-decoration: none;
   transition: 0.7s;
@@ -87,7 +91,7 @@ body {
 .contact-link:hover,
 .project-link:hover,
 .footer-link:hover {
-  color:  #b00909;
+  color:  #208f16;
 }
 
 .contacts-list,
@@ -103,7 +107,7 @@ body {
 
 .section {
   width: 50%;
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 .main-section {
@@ -113,10 +117,85 @@ body {
   align-items: center;
 }
 
+.section-title {
+  font-size: 24px;
+}
+
+.main-section-title {
+  font-weight: 700;
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.main-p {
+  margin: 10px 0;
+
+  font-style: italic;
+  font-size: 28px;
+}
+
+.pre {
+  overflow-x: auto; /*add scroll*/
+}
+
 .my-photo {
   border: none;
   border-radius: 50px;
 }
+
+.contact-phone {
+  background-image: url(assets/icons/phone_icon32.png);
+}
+
+.contact-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+
+  background-image: url(assets/icons/email_icon32.png);
+}
+
+.contact-github {
+  background-image: url(assets/icons/github_icon32.png);
+}
+
+.contact-linkedin {
+  background-image: url(assets/icons/linkedin_icon32.png);
+}
+
+.contact-telegram {
+  background-image: url(assets/icons/telegram_icon32.c.png);
+}
+
+.contacts-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  min-height: 30px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+}
+
+.contact-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-image: url(assets/icons/email_icon32.png);
+}
+
+/* .mail-contact-link {
+  display: column;
+  justify-content: flex-start;
+
+  padding-left: 40px;
+
+} */
 
 @media (max-width: 768px) {
   .section {
@@ -124,6 +203,6 @@ body {
   }
 
   .nav-link {
-  padding: 0 10px;
+  padding: 0 5px;
   }
 }
