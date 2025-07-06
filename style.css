@@ -95,8 +95,7 @@ body {
   color:  #208f16;
 }
 
-.contacts-list,
-.skills-list {
+.contacts-list {
   list-style: none;
 }
 
@@ -135,11 +134,25 @@ body {
   font-size: 28px;
 }
 
-.education-span {
+.education-span{
   font-weight: 700;
 }
 
 .period-span {
+  font-style: italic;
+}
+
+.skills-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-title {
+  min-width: 120px;
+}
+
+.skills-list {
+  padding-top: 3px;
   font-style: italic;
 }
 
