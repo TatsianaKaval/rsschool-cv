@@ -67,14 +67,35 @@ body {
   list-style: none;
 }
 
+/* !Order */
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+
+  position: relative;
 
   font-size: 20px;
 
   color: var(--nav-link-color);
   text-decoration: none;
+}
+
+.nav-link::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  /* width: 0; for left underline*/
+  width: 100%;
+  height: 2px;
+  background-color: var(--nav-link-hover);
+  transition: 0.5s;
+  transform: scaleX(0); /*for center underline*/
+}
+
+.nav-link:hover::before {
+  /* width: 100%; for left underline*/
+  transform: scaleX(1); /*for center underline*/
 }
 
 .nav-link:visited {
@@ -85,36 +106,67 @@ body {
   color: var(--nav-link-hover);
 }
 
+.project-link {
+  position: relative;
+}
+
+.project-link::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+  width: 0;
+  height: 2px;
+  
+  background-color: var(--link-color-hover);
+  transition: 0.5s;
+}
+
+.project-link:hover::before {
+  width: 100%;
+}
+
 .contact-link,
 .project-link,
 .footer-link {
-  /* padding: 0 20px; */
   line-height: 30px;
 
-  color: var(--link-color-first);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .contact-link,
+.project-link
 .footer-link {
   padding: 0 20px; 
 }
 
-.project-link {
-  padding-right: 40px;
+.contact-link,
+.project-link{
+  color: var(--link-color-first);
 }
 
 .contact-link:visited,
-.project-link:visited,
-.footer-link:visited {
+.project-link:visited{
   color: var(--link-color-first);
 }
 
 .contact-link:hover,
-.project-link:hover,
-.footer-link:hover {
+.project-link:hover {
   color: var(--link-color-hover);
+}
+
+.footer-link {
+  color: var(--nav-link-color);
+}
+
+.footer-link:visited {
+  color: var(--nav-link-color);
+}
+
+.footer-link:hover {
+  color: var(--nav-link-hover);
 }
 
 .contacts-list {
