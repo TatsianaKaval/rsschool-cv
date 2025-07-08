@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("assets/fonts/Roboto-VariableFont.ttf");
 }
 
@@ -32,7 +32,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   line-height: 1.5;
 }
@@ -290,7 +290,7 @@ body {
 }
 
 .contact-phone {
-  background-image: url(assets/icons/phone_icon32.png);
+  background-image: url("assets/icons/phone_icon32.png");
 }
 
 .contact-mail {
@@ -298,19 +298,19 @@ body {
   flex-direction: column;
   align-items: self-end;
 
-  background-image: url(assets/icons/email_icon32.png);
+  background-image: url("assets/icons/email_icon32.png");
 }
 
 .contact-github {
-  background-image: url(assets/icons/github_icon32.png);
+  background-image: url("assets/icons/github_icon32.png");
 }
 
 .contact-linkedin {
-  background-image: url(assets/icons/linkedin_icon32.png);
+  background-image: url("assets/icons/linkedin_icon32.png");
 }
 
 .contact-telegram {
-  background-image: url(assets/icons/telegram_icon32.c.png);
+  background-image: url("assets/icons/telegram_icon32.c.png");
 }
 
 .contacts-item {
@@ -332,7 +332,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
 
-  background-image: url(assets/icons/email_icon32.png);
+  background-image: url("assets/icons/email_icon32.png");
 }
 
 .footer-container {
@@ -344,12 +344,12 @@ body {
 }
 
 .footer-link-github {
-  background-image: url(assets/icons/github_logo_icon.svg);
+  background-image: url("assets/icons/github_logo_icon.svg");
   background-size: 64px;
 }
 
 .footer-link-rs-school {
-  background-image: url(assets/icons/rs_school_logo.jpg);
+  background-image: url("assets/icons/rs_school_logo.jpg");
   background-size: 150px;
   min-width: 150px;
 }
