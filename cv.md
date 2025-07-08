@@ -2,17 +2,17 @@
 Junior Developer (Python Backend / Frontend)
 
 ### Contacts
-:telephone_receiver: +375&nbsp;29&nbsp;671&nbsp;40&nbsp;80&#92;
-:email: tatsiana.kaval91@gmail.com&#92;
-  tatianakov91@gmail.com&#92;
-:globe_with_meridians: [GitHub](https://github.com/TatsianaKaval)&#92;
-  [LinkedIn](https://www.linkedin.com/in/tatsiana-kavalevich1/)&#92;
+:telephone_receiver: +375&nbsp;29&nbsp;671&nbsp;40&nbsp;80\
+:email: tatsiana.kaval91@gmail.com\
+  tatianakov91@gmail.com\
+:globe_with_meridians: [GitHub](https://github.com/TatsianaKaval)\
+  [LinkedIn](https://www.linkedin.com/in/tatsiana-kavalevich1/)\
 :computer: [Telegram](https://t.me.TatsianaKaval)
 
 ### About me
 I am a beginner web developer. I have mastered the basics of backend development using
 Django and SQLite during my training courses. Currently, I am learning frontend
-development.&#92;
+development.\
 I enjoy acquiring new knowledge. I am a responsible and reliable person, striving for
 high-quality results. I work well in a team and am eager to develop new skills.
 I am open to new knowledge and always ready to improve myself.
