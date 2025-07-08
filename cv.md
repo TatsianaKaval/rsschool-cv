@@ -2,20 +2,20 @@
 Junior Developer (Python Backend / Frontend)
 
 ### Contacts
-:telephone_receiver: +375 29 671 40 80\
+:telephone_receiver: +375&nbsp;29&nbsp;671&nbsp;40&nbsp;80\
 :email: tatsiana.kaval91@gmail.com\
   tatianakov91@gmail.com\
-:globe_with_meridians: [GitHub](https://github.com/TatsianaKaval)  
-  [LinkedIn](www.linkedin.com/in/tatsiana-kavalevich1)\
+:globe_with_meridians: [GitHub](https://github.com/TatsianaKaval)\
+  [LinkedIn](https://www.linkedin.com/in/tatsiana-kavalevich1/)\
 :computer: [Telegram](https://t.me.TatsianaKaval)
 
 ### About me
-I am a beginner web developer. I have mastered the basics of backend development using  
-Django and SQLite during my training courses. Currently, I am learning frontend  
-development.  
-I enjoy acquiring new knowledge. I am a responsible and reliable person, striving for  
-high-quality results. I work well in a team and am eager to develop new skills.  
-I am open to new knowledge and always ready to improve myself.  
+I am a beginner web developer. I have mastered the basics of backend development using
+Django and SQLite during my training courses. Currently, I am learning frontend
+development.\
+I enjoy acquiring new knowledge. I am a responsible and reliable person, striving for
+high-quality results. I work well in a team and am eager to develop new skills.
+I am open to new knowledge and always ready to improve myself.
 I am looking for my first internship or a Junior position to apply my knowledge to real-world tasks.
 
 ### Skills
@@ -26,7 +26,7 @@ I am looking for my first internship or a Junior position to apply my knowledge 
 
 
 ### Education
-- _JS / Front-end Pre-school RU_, RS school (June 2025 - Present)  
+- _JS / Front-end Pre-school RU_, RS school (June 2025 - Present)
 - _Python web development (Django)_, IT Academy, (March - May 2024)
 - _High school diploma_, (Graduated in 2009)
 
@@ -34,7 +34,7 @@ I am looking for my first internship or a Junior position to apply my knowledge 
 ```
 function squareSum(numbers) {
   let out = 0;
-  for (let i = 0; i < numbers.length; i++) {
+  for (let i = 0; i &#60; numbers.length; i++) {
     let square = numbers[i] ** 2;
     out += square;
   }
@@ -45,12 +45,12 @@ squareSum([1, 2, 2])
 ```
 
 ### Experience
-**Project: _Online Flower Shop Website_**  
+**Project: _Online Flower Shop Website_**
 **Source code:** [Flower shop](https://github.com/TatsianaKaval/django-flower-shop)
 
 **Technologies:** Python, Django, HTML, CSS, SQLite, Git, GitHub
 
-**Description:**  
+**Description:**
 Developed a web-based flower shop as part of a learning project using Django. The website includes: a product catalog, company information pages, and contacts. Implemented Django templates, views, models, admin panel. The project is structured according to best practices, with sensitive data securely managed via a .env file.
 
 **Skills demonstrated:**
