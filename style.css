@@ -346,12 +346,14 @@ body {
 .footer-link-github {
   background-image: url("assets/icons/github_logo_icon.svg");
   background-size: 64px;
+  padding-left: 80px;
 }
 
 .footer-link-rs-school {
   background-image: url("assets/icons/rs_school_logo.jpg");
   background-size: 150px;
   min-width: 150px;
+  padding-left: 160px;
 }
 
 .footer-link {
@@ -359,11 +361,12 @@ body {
   align-items: flex-end;
 
   min-height: 64px;
-  padding-left: 100px;
   margin-bottom: 10px;
 
   background-repeat: no-repeat;
   background-position: left;
+
+  font-size: 14px;
 }
 
 @media (max-width: 1024px) {
