@@ -289,9 +289,6 @@ body {
   border-radius: 50px;
 }
 
-.contact-phone {
-  background-image: url("assets/icons/phone_icon32.png");
-}
 
 .contact-mail {
   display: flex;
@@ -325,6 +322,12 @@ body {
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: left center;
+}
+
+.contact-discord {
+  display: inline;
+  padding-left: 60px;
+  background-image: url("assets/icons/discord_icon32.png");
 }
 
 .contact-mail {
